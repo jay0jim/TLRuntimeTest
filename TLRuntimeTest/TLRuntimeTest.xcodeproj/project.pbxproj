@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		EA0492E31E2DC04600E9F0C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0492E21E2DC04600E9F0C2 /* main.m */; };
+		EA0492EB1E2DE5DB00E9F0C2 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0492EA1E2DE5DB00E9F0C2 /* People.m */; };
+		EA0492EE1E2DF3B000E9F0C2 /* People+Associated.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0492ED1E2DF3B000E9F0C2 /* People+Associated.m */; };
+		EA0492F11E2DF9CE00E9F0C2 /* PeopleSing.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0492F01E2DF9CE00E9F0C2 /* PeopleSing.m */; };
+		EA0492F41E2DFCCA00E9F0C2 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0492F31E2DFCCA00E9F0C2 /* Bird.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		EA0492DF1E2DC04600E9F0C2 /* TLRuntimeTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TLRuntimeTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0492E21E2DC04600E9F0C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA0492E91E2DE5DB00E9F0C2 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		EA0492EA1E2DE5DB00E9F0C2 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		EA0492EC1E2DF3B000E9F0C2 /* People+Associated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "People+Associated.h"; sourceTree = "<group>"; };
+		EA0492ED1E2DF3B000E9F0C2 /* People+Associated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "People+Associated.m"; sourceTree = "<group>"; };
+		EA0492EF1E2DF9CE00E9F0C2 /* PeopleSing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleSing.h; sourceTree = "<group>"; };
+		EA0492F01E2DF9CE00E9F0C2 /* PeopleSing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleSing.m; sourceTree = "<group>"; };
+		EA0492F21E2DFCCA00E9F0C2 /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		EA0492F31E2DFCCA00E9F0C2 /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				EA0492E21E2DC04600E9F0C2 /* main.m */,
+				EA0492E91E2DE5DB00E9F0C2 /* People.h */,
+				EA0492EA1E2DE5DB00E9F0C2 /* People.m */,
+				EA0492EC1E2DF3B000E9F0C2 /* People+Associated.h */,
+				EA0492ED1E2DF3B000E9F0C2 /* People+Associated.m */,
+				EA0492EF1E2DF9CE00E9F0C2 /* PeopleSing.h */,
+				EA0492F01E2DF9CE00E9F0C2 /* PeopleSing.m */,
+				EA0492F21E2DFCCA00E9F0C2 /* Bird.h */,
+				EA0492F31E2DFCCA00E9F0C2 /* Bird.m */,
 			);
 			path = TLRuntimeTest;
 			sourceTree = "<group>";
@@ -120,6 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0492F41E2DFCCA00E9F0C2 /* Bird.m in Sources */,
+				EA0492EE1E2DF3B000E9F0C2 /* People+Associated.m in Sources */,
+				EA0492F11E2DF9CE00E9F0C2 /* PeopleSing.m in Sources */,
+				EA0492EB1E2DE5DB00E9F0C2 /* People.m in Sources */,
 				EA0492E31E2DC04600E9F0C2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +242,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = UVLX4292NF;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -226,6 +251,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = UVLX4292NF;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
