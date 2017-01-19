@@ -28,14 +28,16 @@ void myFunc3();
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
+//        myFunc1();
+//        myFunc2();
 //        myFunc3();
         
 //        PeopleSing *cangTeacher = [[PeopleSing alloc] init];
 //        cangTeacher.name = @"苍老师";
 //        [cangTeacher sing];
         
-        Bird *bird = [[Bird alloc] init];
-        ((void (*)(id, SEL))objc_msgSend)((id)bird, @selector(sing));
+//        Bird *bird = [[Bird alloc] init];
+//        ((void (*)(id, SEL))objc_msgSend)((id)bird, @selector(sing));
         
         
     }
