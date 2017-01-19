@@ -39,6 +39,10 @@ int main(int argc, const char * argv[]) {
 //        Bird *bird = [[Bird alloc] init];
 //        ((void (*)(id, SEL))objc_msgSend)((id)bird, @selector(sing));
         
+        PeopleSing *cangTeacher = [[PeopleSing alloc] init];
+        
+        ((void(*)(id, SEL)) objc_msgSend)((id)cangTeacher, @selector(sing));
+        
         
     }
     return 0;
